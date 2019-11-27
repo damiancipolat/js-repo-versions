@@ -16,7 +16,7 @@ repo-versions
 repo-versions --web
 ```
 
-#### Command line:
+### Command line:
 You can use this tool to have a fast view of the differents versions of the projects in a console, ideal for developers or architects.
 
 <img src="https://github.com/damiancipolat/js-repo-versions/blob/master/doc/console.jpg?raw=true" width="900px"/>
@@ -62,7 +62,7 @@ Options:
 ```
 
 
-#### Web server:
+### Web server:
 You can use this tool to have a more beauty view of the versions, maybe to use in a meeting.
 
 <img src="https://github.com/damiancipolat/js-repo-versions/blob/master/doc/web.png?raw=true" width="900px"/>

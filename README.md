@@ -5,10 +5,21 @@ This tool was created so that we can handle different javascript project reposit
 ## How to use?
 This tool was created so that we can handle different javascript project repositories in a gitlab repository.
 
-- There are two ways to use this tool, by **command line** and running a **webs server**.
+"There are two ways to use this tool, by **command line** or running a **webs server**."
 
-#### Command line:
+### TL;DR
+```sh
+#Command line 
+repo-versions
+
+#Web server
+repo-versions --web
+```
+
+### Command line:
 You can use this tool to have a fast view of the differents versions of the projects in a console, ideal for developers or architects.
+
+<img src="https://github.com/damiancipolat/js-repo-versions/blob/master/doc/console.jpg?raw=true" width="900px"/>
 
 Run this commands:
 ```sh
@@ -34,8 +45,8 @@ $ repo-versions
 ├──────────────────────────────┼────────────────────┼────────────────────┼────────────────────┤
 │ ms-processor                 │ X                  │ 1.0.0              │ 1.0.0              │
 └──────────────────────────────┴────────────────────┴────────────────────┴────────────────────┘
-
 ```
+
 To see the **HELP** section:
 
 ```sh
@@ -47,10 +58,11 @@ Options:
   -p, --port [port]  Define webserver listen port.
   -i, --ip   [ip]    Define webserver listen ip address.
   -h, --help         output usage information
+
 ```
 
 
-#### Web server:
+### Web server:
 You can use this tool to have a more beauty view of the versions, maybe to use in a meeting.
 
 <img src="https://github.com/damiancipolat/js-repo-versions/blob/master/doc/web.png?raw=true" width="900px"/>

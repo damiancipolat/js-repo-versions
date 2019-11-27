@@ -9,7 +9,7 @@ This tool was created so that we can handle different javascript project reposit
 - There are two ways to use this tool, by command line and running a webserver.
 
 #### Command line:
-You can use this tool to have a fast view of the differents versions of the projects in a console, idearl for developers or architects.
+You can use this tool to have a fast view of the differents versions of the projects in a console, ideal for developers or architects.
 
 ```sh
 #Install and link 
@@ -103,18 +103,14 @@ The tool use a configuration file located in the path **/config/default.json** w
 
 ```json
 {
-	"access":{
-		"host":  "https://gitlab.xxxxxxxx.dev/api/v4",
-		"token": "aaaaaaaaaaaaaaaaaaaa"
-	},  
-  "branches":[
-		"develop",
-		"staging",
-		"prod"
-  ],
+  "access":{
+    "host":  "https://gitlab.xxxxxxxx.dev/api/v4",
+    "token": "aaaaaaaaaaaaaaaaaaaa"
+  },  
+  "branches":[ "develop","staging","prod"],
   "origin":{
-		"source":"group",
-		"name":"the-face"
+    "source":"group",
+    "name":"the-face"
   }
 }
 ```

@@ -9,6 +9,8 @@ This tool was created so that we can handle different javascript project reposit
 - There are two ways to use this tool, by command line and running a webserver.
 
 #### Command line:
+You can use this tool to have a fast view of the differents versions of the projects in a console, idearl for developers or architects.
+
 ```sh
 #Install and link 
 $ npm install && npm link
@@ -36,6 +38,8 @@ $ repo-versions
 ```
 
 #### Web server:
+You can use this tool to have a more beauty view of the versions, maybe to use in a meeting.
+
 ```sh
 #Install and link 
 $ npm install && npm link
@@ -93,3 +97,28 @@ An example of the package.json:
 ```
 
 We sugges that you have different branches example: **develop, stage, production** and have differents environment for each branch.
+
+#### Configuration:
+The tool use a configuration file located in the path **/config/default.json** with this format:
+
+```json
+{
+	"access":{
+		"host":  "https://gitlab.xxxxxxxx.dev/api/v4",
+		"token": "aaaaaaaaaaaaaaaaaaaa"
+	},  
+  "branches":[
+		"develop",
+		"staging",
+		"prod"
+  ],
+  "origin":{
+		"source":"group",
+		"name":"the-face"
+  }
+}
+```
+
+##### Sections:
+
+- Access: in this section we set the host and the access-token. Use this link to get it. https://docs.gitlab.com/ee/api/README.html#personal-access-tokens

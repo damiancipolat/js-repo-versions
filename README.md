@@ -45,3 +45,5 @@ An example of the package.json:
   }
 }
 ```
+
+We sugges that you have different branches example: **develop, stage, production** and have differents environment for each branch.

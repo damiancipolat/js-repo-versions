@@ -6,6 +6,33 @@ This tool was created so that we can handle different javascript project reposit
 ### How to use?
 This tool was created so that we can handle different javascript project repositories in a gitlab repository.
 
+Run this command:
+```sh
+#Install and link 
+npm install && npm link
+
+#Run
+repo-versions
+
+#Output
+
+* Fetching data from: https://gitlab.damiancipolat.com/api/v4
+* Please wait... 
+
+"ms-projects", 11 projects found.
+
+┌──────────────────────────────┬────────────────────┬────────────────────┬────────────────────┐
+│ Projects                     │ develop            │ staging            │ prod               │
+├──────────────────────────────┼────────────────────┼────────────────────┼────────────────────┤
+│ ms-config                    │ X                  │ X                  │ X                  │
+├──────────────────────────────┼────────────────────┼────────────────────┼────────────────────┤
+│ ms-api                       │ 2.0.6              │ 2.0.6              │ 2.0.6              │
+├──────────────────────────────┼────────────────────┼────────────────────┼────────────────────┤
+│ ms-processor                 │ X                  │ 1.0.0              │ 1.0.0              │
+└──────────────────────────────┴────────────────────┴────────────────────┴────────────────────┘
+
+```
+
 ### Projects structure:
 We are using projects with this scaffolding:
 

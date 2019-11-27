@@ -1,14 +1,14 @@
 # js-versions-projects
 
-## What is it?
+### What is it?
 This tool was created so that we can handle different javascript project repositories in a gitlab repository.
 
-## How to use?
+### How to use?
 This tool was created so that we can handle different javascript project repositories in a gitlab repository.
 
 - There are two ways to use this tool, by command line and running a webserver.
 
-### Command line:
+#### Command line:
 ```sh
 #Install and link 
 npm install && npm link
@@ -35,7 +35,7 @@ repo-versions
 
 ```
 
-### Web server:
+#### Web server:
 ```sh
 #Install and link 
 npm install && npm link

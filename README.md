@@ -11,10 +11,10 @@ This tool was created so that we can handle different javascript project reposit
 #### Command line:
 ```sh
 #Install and link 
-npm install && npm link
+$ npm install && npm link
 
 #Run
-repo-versions
+$ repo-versions
 
 #Output
 
@@ -38,10 +38,10 @@ repo-versions
 #### Web server:
 ```sh
 #Install and link 
-npm install && npm link
+$ npm install && npm link
 
 #Run
-repo-versions --web --ip 127.0.0.1 --port 8080
+$ repo-versions --web --ip 127.0.0.1 --port 8080
 
 #Output
 

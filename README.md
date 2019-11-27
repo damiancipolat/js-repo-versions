@@ -37,6 +37,20 @@ $ repo-versions
 
 ```
 
+To see the **HELP** section:
+
+```sh
+[damiancipolat@localhost js-repo-versions]$ repo-versions -h
+Usage: repo-versions [options]
+
+Options:
+  -w, --web          Start a webserver to show the report dashboard.
+  -p, --port [port]  Define webserver listen port.
+  -i, --ip   [ip]    Define webserver listen ip address.
+  -h, --help         output usage information
+```
+
+
 #### Web server:
 You can use this tool to have a more beauty view of the versions, maybe to use in a meeting.
 

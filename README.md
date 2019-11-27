@@ -1,9 +1,9 @@
 # js-versions-projects
 
-### What is it?
+## What is it?
 This tool was created so that we can handle different javascript project repositories in a gitlab repository.
 
-### How to use?
+## How to use?
 This tool was created so that we can handle different javascript project repositories in a gitlab repository.
 
 - There are two ways to use this tool, by command line and running a webserver.
@@ -114,7 +114,7 @@ An example of the package.json:
 
 We sugges that you have different branches example: **develop, stage, production** and have differents environment for each branch.
 
-#### Configuration:
+## Configuration:
 The tool use a configuration file located in the path **/config/default.json** with this format:
 
 ```json

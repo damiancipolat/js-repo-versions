@@ -11,6 +11,7 @@ This tool was created so that we can handle different javascript project reposit
 #### Command line:
 You can use this tool to have a fast view of the differents versions of the projects in a console, ideal for developers or architects.
 
+Run this commands:
 ```sh
 #Install and link 
 $ npm install && npm link
@@ -56,6 +57,7 @@ You can use this tool to have a more beauty view of the versions, maybe to use i
 
 <img src="https://github.com/damiancipolat/js-repo-versions/blob/master/doc/web.png?raw=true" width="900px"/>
 
+Run this commands:
 ```sh
 #Install and link 
 $ npm install && npm link

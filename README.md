@@ -121,4 +121,5 @@ The tool use a configuration file located in the path **/config/default.json** w
 
 ##### Sections:
 
-- Access: in this section we set the host and the access-token. Use this link to get it. https://docs.gitlab.com/ee/api/README.html#personal-access-tokens
+- **Access**:
+In this section we set the host and the access-token. Use this link to get it. https://docs.gitlab.com/ee/api/README.html#personal-access-tokens

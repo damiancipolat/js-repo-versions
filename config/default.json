@@ -1,0 +1,15 @@
+{
+	"access":{
+		"host":  "https://gitlab.xxxxxx.dev/api/v4",
+		"token": "xxxxxxxxxxx"
+	},  
+  "branches":[
+		"develop",
+		"staging",
+		"prod"
+  ],
+  "origin":{
+		"source":"group",
+		"name":"the-face"
+  }
+}

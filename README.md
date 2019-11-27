@@ -121,15 +121,9 @@ The tool use a configuration file located in the path **/config/default.json** w
 
 ##### Sections:
 
-- **Access**: In this section we set the host and the access-token. Use this link to get it. https://docs.gitlab.com/ee/api/README.html#personal-access-tokens
-- **Branches**: We put in array the list of branches of out environments.
-- **Origin**: In this part we define the origin in "source" the options are "group" , "user", "all". 
- - Group: Are the projects from a specific group, example the-matrix/ms-api, in this case set the value in "name" field.
- - User: Are the projects from a specific user, in this case set the value in "name" field.
- - All: Are all the visible projects from this token, is'nt necessary to use the "name" field.
-
-1. Lists can be nested
-    * Four spaces
-        - Eight spaces
-            + Twelve spaces
-2. And back
+1. **Access**: In this section we set the host and the access-token. Use this link to get it. https://docs.gitlab.com/ee/api/README.html#personal-access-tokens
+2. **Branches**: We put in array the list of branches of out environments.
+3. **Origin**: In this part we define the origin in "source" the options are "group" , "user", "all".
+    * Group: Are the projects from a specific group, example the-matrix/ms-api, in this case set the value in "name" field.
+    * User: Are the projects from a specific user, in this case set the value in "name" field.
+    * All: Are all the visible projects from this token, is'nt necessary to use the "name" field.   

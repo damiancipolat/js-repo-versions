@@ -1,16 +1,17 @@
 # js-versions-projects
 
-### What is it?
+## What is it?
 This tool was created so that we can handle different javascript project repositories in a gitlab repository.
 
-### How to use?
+## How to use?
 This tool was created so that we can handle different javascript project repositories in a gitlab repository.
 
-- There are two ways to use this tool, by command line and running a webserver.
+- There are two ways to use this tool, by **command line** and running a **webs server**.
 
 #### Command line:
 You can use this tool to have a fast view of the differents versions of the projects in a console, ideal for developers or architects.
 
+Run this commands:
 ```sh
 #Install and link 
 $ npm install && npm link
@@ -54,6 +55,9 @@ Options:
 #### Web server:
 You can use this tool to have a more beauty view of the versions, maybe to use in a meeting.
 
+<img src="https://github.com/damiancipolat/js-repo-versions/blob/master/doc/web.png?raw=true" width="900px"/>
+
+Run this commands:
 ```sh
 #Install and link 
 $ npm install && npm link
@@ -112,7 +116,7 @@ An example of the package.json:
 
 We sugges that you have different branches example: **develop, stage, production** and have differents environment for each branch.
 
-#### Configuration:
+## Configuration:
 The tool use a configuration file located in the path **/config/default.json** with this format:
 
 ```json
@@ -129,7 +133,7 @@ The tool use a configuration file located in the path **/config/default.json** w
 }
 ```
 
-##### Sections:
+#### Sections:
 
 1. **Access**: In this section we set the host and the access-token. Use this link to get it. https://docs.gitlab.com/ee/api/README.html#personal-access-tokens
 2. **Branches**: We put in array the list of branches of out environments.

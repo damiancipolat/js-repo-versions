@@ -10,6 +10,8 @@ This tool was created so that we can handle different javascript project reposit
 #### Command line:
 You can use this tool to have a fast view of the differents versions of the projects in a console, ideal for developers or architects.
 
+<img src="https://github.com/damiancipolat/js-repo-versions/blob/master/doc/console.jpg?raw=true" width="900px"/>
+
 Run this commands:
 ```sh
 #Install and link 
@@ -47,6 +49,7 @@ Options:
   -p, --port [port]  Define webserver listen port.
   -i, --ip   [ip]    Define webserver listen ip address.
   -h, --help         output usage information
+
 ```
 
 

@@ -6,7 +6,7 @@ This tool was created so that we can handle different javascript project reposit
 ## How to use?
 This tool was created so that we can handle different javascript project repositories in a gitlab repository.
 
-- There are two ways to use this tool, by command line and running a webserver.
+- There are two ways to use this tool, by **command line** and running a **webs server**.
 
 #### Command line:
 You can use this tool to have a fast view of the differents versions of the projects in a console, ideal for developers or architects.

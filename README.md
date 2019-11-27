@@ -1,7 +1,6 @@
-# js-versions-projects
-
 ## What is it?
-This tool was created so that we can handle different javascript project repositories in a gitlab repository.
+This tool was created so that we can handle different javascript project repositories in a gitlab repository. The idea of this project is that we can see from a single view, the different versions that we work on our projects. With this tool we can improve the administration and passage of versions.
+
 
 ## How to use?
 This tool was created so that we can handle different javascript project repositories in a gitlab repository.

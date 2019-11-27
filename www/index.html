@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Versions report</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./main.css">
+</head>
+<body>	
+	<div class="limiter">
+		<div class="container-table100">
+			<div class="wrap-table100">
+				<div class="table100">
+					<div class="title-report">
+						The Face - Versions & environments
+					</div>
+					<div id="loading-body" class="loading-div">
+						Loading from GITLAB...
+						<div id="loading-progress"></div>
+					</div>
+					<table id="data-table">
+						<thead>
+							<tr class="table100-head">
+							<th class="column column1">Project</th>
+							<th class="column column2">Develop</th>
+							<th class="column column3">Stage</th>
+							<th class="column column4">Production</th>
+							</tr>
+						</thead>
+						<tbody id="table_body">
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="./config.js"></script>
+	<script src="./main.js"></script>
+</body>
+</html>

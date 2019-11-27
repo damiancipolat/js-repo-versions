@@ -7,7 +7,7 @@ This tool was created so that we can handle different javascript project reposit
 
 "There are two ways to use this tool, by **command line** or running a **webs server**."
 
-###TL;DR
+### TL;DR
 ```sh
 #Command line 
 repo-versions

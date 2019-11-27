@@ -54,6 +54,8 @@ Options:
 #### Web server:
 You can use this tool to have a more beauty view of the versions, maybe to use in a meeting.
 
+<img src="https://github.com/damiancipolat/js-repo-versions/blob/master/doc/web.png?raw=true" width="300px"/>
+
 ```sh
 #Install and link 
 $ npm install && npm link

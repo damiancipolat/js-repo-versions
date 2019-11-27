@@ -1,12 +1,12 @@
 # js-versions-projects
 
-###- What is it?
+### What is it?
 This tool was created so that we can handle different javascript project repositories in a gitlab repository.
 
-###- How to use?
+### How to use?
 This tool was created so that we can handle different javascript project repositories in a gitlab repository.
 
-###- Projects structure:
+### Projects structure:
 We are using projects with this scaffolding:
 
 ```sh

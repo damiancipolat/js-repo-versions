@@ -1,5 +1,5 @@
 ## What is it?
-I created this tool because I need to be able to quickly see the different versions of my JS projects, in a single view. So using the GITLAB api and a bit of HTML + JS + CSS I can build a web dashboard to visualize this.
+I have created this tool because I need to be able to quickly see the different versions of my JS projects, in a single view. So using the GITLAB api and a bit of HTML + JS + CSS I can build a web dashboard to visualize this.
 
 We are using the **GITLAB** api version 4.0, maybe in the future I will addapt this code with others git providers.
 

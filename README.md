@@ -7,6 +7,15 @@ This tool was created so that we can handle different javascript project reposit
 
 "There are two ways to use this tool, by **command line** or running a **webs server**."
 
+###TL;DR
+```sh
+#Command line 
+repo-versions
+
+#Web server
+repo-versions --web
+```
+
 #### Command line:
 You can use this tool to have a fast view of the differents versions of the projects in a console, ideal for developers or architects.
 
@@ -36,8 +45,8 @@ $ repo-versions
 ├──────────────────────────────┼────────────────────┼────────────────────┼────────────────────┤
 │ ms-processor                 │ X                  │ 1.0.0              │ 1.0.0              │
 └──────────────────────────────┴────────────────────┴────────────────────┴────────────────────┘
-
 ```
+
 To see the **HELP** section:
 
 ```sh

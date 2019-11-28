@@ -144,6 +144,11 @@ The tool use a configuration file located in the path **/config/default.json** w
   }
 }
 ```
+Or you can define the configuration directory in the environment variable **NODE_CONFIG_DIR**, but keep the file name "default.json".
+
+```sh
+export NODE_CONFIG_DIR="/home/tmp/config"
+```
 
 #### Sections:
 
